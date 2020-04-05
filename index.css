@@ -12,6 +12,12 @@ body {
 
 .top-right-corner {
     position: absolute;
+    top: 1.1em;
+    right: 0.1em;
+}
+
+.top-right-corner-date {
+    position: absolute;
     top: 0.1em;
     right: 0.1em;
 }
@@ -25,8 +31,9 @@ body {
 
 .js-clock h1{
     font-size : 10em;
-    margin-bottom: 0.1em;
+    margin-bottom: -0.2em;
 }
+
 
 .js-date {
     font-size : 1.5em;
@@ -34,7 +41,8 @@ body {
 }
 
 .js-weather {
-    font-size : 1.5em;
+    font-size : 1.7em;
+    text-align: right;
 }
 
 
@@ -45,6 +53,10 @@ body {
 
 .form,
 .greetings {
+    display : none;
+}
+
+.js-audio {
     display : none;
 }
 

@@ -6,7 +6,7 @@ const WEATHER_APIKEY = 'a6ddbdfc2d38462a9046a5d230d8cf79';
 function showWeather(description, temp, name){
     const weather = document.querySelector('.js-weather');
     weather.innerText = `${description} ${temp}°C
-    @${name}`;
+@${name}`;
 }
 
 function getWeatherInfo(coords){

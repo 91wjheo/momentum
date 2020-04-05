@@ -13,7 +13,11 @@
         <div class="js-clock">
             <h1>00:00:00</h1>
         </div>
-        <div class="js-date">0000.00.00</div>
+        <div class="js-ticking">
+            <label for="cb-tick">chronometer sound</label>
+            <input type="checkbox" id="cb-tick">
+        </div>
+        <div class="js-date top-right-corner-date">0000.00.00</div>
         <div class="js-weather top-right-corner"></div>
         <form class="js-form form">
                 <input type="text" placeholder="what is your name">
@@ -24,7 +28,9 @@
         </form>
         <ul class="js-toDoList">
         </ul>
-
+        <audio class="js-audio" controls loop>
+            <source src="sounds/clock-ticking.mp3" type="audio/mpeg">
+        </audio>
 
     <script src="clock.js"></script>
     <script src="greeting.js"></script>
@@ -32,7 +38,7 @@
     <script src="bg.js"></script>
     <script src="weather.js"></script>
     <script src="date.js"></script>
-
+    <script src="ticking.js"></script>
 
     </body>
 </html>
