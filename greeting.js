@@ -8,7 +8,7 @@ const USER_LS = "currentUser",
 function paintGreeting(text){
     form.classList.remove(SHOWING_CN); // 텍스트를 보여줄거면 폼을 숨겨야한다. 이게 무슨말?
     greeting.classList.add(SHOWING_CN);
-    greeting.innerText =  `Hello ${text}`;
+    greeting.innerText =  `Hello, ${text}`;
 }
 function handleSubmit(event){
     event.preventDefault(); // form이 전송될때 즉, submit될때의 기본 이벤트작동방식인 action 경로로 요청날리는걸 막아줌.
